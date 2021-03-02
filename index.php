@@ -50,11 +50,9 @@
                 <!-- Registro -->
                 <form action="php/registro_usuario_be.php" method="POST" class="formulario__registro">
                     <h2>Registrarse</h2>
-                    <div id="scroll">
                         <input type="text" required placeholder="Nombre" name="nombr">
-                        <br><input type="text" required placeholder="Correo electrónico" name="corr">
+                        <input type="text" required placeholder="Correo electrónico" name="corr">
                         <input type="password" required placeholder="Contraseña" name="pass">
-                    </div>
                     <button>Registrarse</button>
                 </form>
             </div>
