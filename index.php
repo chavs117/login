@@ -52,27 +52,7 @@
                     <h2>Registrarse</h2>
                     <div id="scroll">
                         <input type="text" required placeholder="Nombre" name="nombr">
-                        <br><input type="text" required placeholder="Apellido Paterno" name="aplld_patrn">
-                        <br><input type="text" placeholder="Apellido Materno" name="aplld_matrn">
                         <br><input type="text" required placeholder="Correo electrónico" name="corr">
-                        <br><input type="text" required placeholder="Calle 1" name="call1">
-                        <br><input type="text" placeholder="Calle 2" name="call2">
-                        <br><input type="text" required placeholder="Número Exterior" name="num_ext">
-                        <br><input type="text" placeholder="Número Interior" name="num_int">
-                        <br><input type="text" required placeholder="Código Postal" name="cod_pstl">
-                        <br><input type="text" required placeholder="Estado" name="estd">
-                        <br><input type="text" required placeholder="Ciudad" name="cidd">
-                        <br><input type="text" required placeholder="Colonia" name="coln">
-                        <br><input type="text" required placeholder="País" name="pais">
-                        <br><input type="text" multiple name="cuenta" id="cuenta" list="Cuenta" required placeholder="Tipo de cuenta">
-                        <datalist id="Cuenta">
-                            <option>Doctor</option>
-                            <option>Asistente</option>
-                            <option>Proveedor</option>
-                            <option>Paciente</option>
-                            <option>Laboratorio</option>
-                        </datalist>
-                        <input type="text" required placeholder="Celular" name="celular">
                         <input type="password" required placeholder="Contraseña" name="pass">
                     </div>
                     <button>Registrarse</button>
