@@ -1,5 +1,5 @@
 <?php 
-$conexion = mysqli_connect("194.62.97.54","root","Dinosaurio8","medic");
+$conexion = mysqli_connect("127.0.0.1","root","Dinosaurio8","medic");
 
 /*
 if($conexion){
