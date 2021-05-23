@@ -27,7 +27,7 @@ if(mysqli_num_rows($verificar_correo) > 0){
 // Verificar que el nombre no se repita en la base de datos
 $verificar_nombr = mysqli_query($conexion, "SELECT * FROM usuarios WHERE nombr='$nombre'");
 
-if(mysqli_num_rows($verificar_correo) > 0){
+if(mysqli_num_rows($verificar_nombr) > 0){
     echo'
         <script>
             alert("Ese nombre ya está registrado, intenta con otro");
